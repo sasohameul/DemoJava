@@ -1,0 +1,16 @@
+package day14.api.thread;
+
+public class MainClass {
+
+	//1. 작업쓰레드로 사용할 객체 생성
+	ThreadTest test = new ThreadTest();
+	
+	//2.
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package quiz21;
+
+import java.io.*;
+
+public class MainClassAnswer {
+
+	
+	BufferedReader
+}

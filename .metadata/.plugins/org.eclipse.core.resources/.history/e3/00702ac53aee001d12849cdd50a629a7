@@ -1,0 +1,10 @@
+package quiz22;
+
+public class Product {
+
+	private String day;
+	private String store;
+	
+	
+	
+}

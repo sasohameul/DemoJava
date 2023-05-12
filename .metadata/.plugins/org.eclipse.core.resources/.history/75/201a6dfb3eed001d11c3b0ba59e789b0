@@ -1,0 +1,35 @@
+package day16.api.io.buffer;
+
+import java.io.*;
+
+public class BufferReaderUTF8 {
+	
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\java\\file\\20230508\\example.txt";
+		
+		try (BufferReader br = new BufferReader(new FileReader(path))){
+			
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

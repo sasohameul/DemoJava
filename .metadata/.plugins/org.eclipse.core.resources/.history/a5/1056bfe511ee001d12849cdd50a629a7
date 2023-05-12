@@ -1,0 +1,25 @@
+package quiz21;
+
+import java.io.*;
+
+public class MainClassAnswer {
+
+	
+	public static void main(String[] args) {
+		
+		String path = "C:\\Users\\user\\Desktop\\course\\java\\file\\주택도시보증공사_전국 평균 분양가격.csv";
+		
+		try(BufferedReader br = new BufferedReader( new FileReader(path))){
+			
+			
+			String str;
+			while( (str = br.readLine()) !=null){
+				System.out.println(str);
+			}
+			
+		} catch (Exceptione e) {
+			e.printStackTrace();
+		}
+	}
+}
+	
