@@ -1,0 +1,32 @@
+package study03;
+
+public class LevelAdjuster extends Monster {
+	
+	public LevelAdjuster() {
+		
+		super();
+	
+	}
+	
+	public int adjust(String a, int b){
+		
+		super.setLevel(b);
+		
+		if(a.equals("-")) {
+			
+			return super.getLevel() - b;
+			
+		} else if(a.equals("+")) {
+			
+			return super.getLevel() + b;
+			
+		}
+		
+		return 0;
+		
+	}
+	
+	
+	
+
+}

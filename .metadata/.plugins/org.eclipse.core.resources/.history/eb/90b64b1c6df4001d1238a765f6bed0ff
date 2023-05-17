@@ -1,0 +1,76 @@
+package study03.ascending;
+
+import java.util.Arrays;
+
+public class Parents {
+	
+	
+	int num;
+	char[] d;
+	int[] a;
+
+	public Parents(int num) {
+		
+		this.num = num;
+
+		d = new char[num];
+		a = new int [num];
+	}
+
+
+	public void SortMethod() {
+
+		System.out.println(Arrays.toString(d));
+
+		for(int i = 0; i < d.length-1; i++) {
+
+			for(int j = 0; j < d.length-i-1; j++) {
+
+				if(d[i] < d[j]) {
+
+					char temp = d[i];
+					d[i] = d[j];
+					d[j] = temp;
+
+				}
+
+			}
+
+		}
+
+		System.out.println("오름차순");
+		System.out.println(Arrays.toString(d));
+
+
+		System.out.println("=================== ");
+
+		for(int i = 0; i < d.length; i++) {
+
+			a [i] = (int)(Math.random()*100 + 1);
+		}
+
+		System.out.println(Arrays.toString(a));
+		System.out.println("오름차순");
+
+
+		for(int i = 0; i < d.length-1; i++) {
+
+			for(int j = 0; j < d.length-i-1; j++) {
+
+				if(a[i] < a[j]) {
+
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+
+				}
+
+			}
+
+		}
+
+		System.out.println(Arrays.toString(a));
+	}
+
+
+}

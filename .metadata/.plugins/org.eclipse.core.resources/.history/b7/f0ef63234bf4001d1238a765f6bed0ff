@@ -1,0 +1,20 @@
+package study03.Shape;
+
+public class Circle extends Shape{
+	
+	double radius;
+	
+	public Circle(String name, double radius) {
+		
+		
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

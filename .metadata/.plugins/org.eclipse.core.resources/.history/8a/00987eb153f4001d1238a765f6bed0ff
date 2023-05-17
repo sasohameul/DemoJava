@@ -1,0 +1,42 @@
+package study03.ascending;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		int num =  (int)(Math.random()*15) + 5;
+
+		int[] a = new int[num];
+		char[] d = new char[num];
+
+		for(int i = 0; i < d.length; i++) {
+
+			d [i] =  ((char) ((int) (Math.random() * 26) + 65));
+			a [i] = (int)(Math.random()*100 + 1);
+		}
+
+		Parents p = new Parents();
+		p.SortMethod();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+}

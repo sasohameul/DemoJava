@@ -1,0 +1,19 @@
+package study03.parents;
+
+public class Child03 extends Parents {
+	
+	public Child03() {
+
+	}
+
+	public int method3(int a, int b) {
+
+		super.setNum(a);
+		super.setNum2(b);
+		
+		return a * b;
+	}
+
+
+
+}

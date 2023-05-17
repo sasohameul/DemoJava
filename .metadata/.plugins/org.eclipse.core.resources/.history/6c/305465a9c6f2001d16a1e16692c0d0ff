@@ -1,0 +1,31 @@
+package study03;
+
+public class Cat extends Animal {
+
+
+	public Cat(String sound) {
+		super(sound);
+	}
+
+	
+	@Override
+	public void makeSound() {
+		
+		System.out.println(this.sound + "~ 동물 소리를 재생합니다.");
+	}
+
+
+	public String getSound() {
+		return this.sound;
+	}
+
+
+	public void setSound(String sound) {
+		this.sound = sound;
+	}
+	
+	
+	
+	
+	
+}

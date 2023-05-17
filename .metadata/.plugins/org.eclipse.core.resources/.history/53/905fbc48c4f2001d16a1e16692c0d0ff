@@ -1,0 +1,23 @@
+package study03;
+
+public class Duck extends Animal{
+	
+	private String sound;
+	
+	@Override
+	public String makeSound() {
+		
+		return super.makeSound(sound);
+	}
+
+	public String getDsound() {
+		return sound;
+	}
+
+	public void setDsound(String dsound) {
+		sound = dsound;
+	}
+	
+	
+
+}

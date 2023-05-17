@@ -1,0 +1,28 @@
+package study03;
+
+public class Duck extends Animal{
+
+
+	public Duck() {
+		super("꽥꽥");
+	}
+
+
+	@Override
+	public void makeSound() {
+
+		System.out.println(super.sound + "~ 동물 소리를 재생합니다.");
+
+	}
+
+	public String getsound() {
+		return super.sound;
+	}
+
+	public void setsound(String sound) {
+		super.sound = sound;
+	}
+
+
+
+}

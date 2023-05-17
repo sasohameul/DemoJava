@@ -1,0 +1,21 @@
+package study03;
+
+public class LevelAdjuster extends Monster {
+	
+	public LevelAdjuster() {
+		
+		super();
+	
+	}
+	
+	public int adjust(int a){
+		
+		super.setLevel(a);
+		
+		return super.getLevel() + a;
+	}
+	
+	
+	
+
+}

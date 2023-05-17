@@ -1,0 +1,26 @@
+package study03.parents;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Child01 c1 = new Child01();
+		System.out.println(c1.method1());
+		
+		Child02 c2 = new Child02();
+		
+		
+		
+		Child03 c3 = new Child03();
+		System.out.println(c3.method04("안녕","하세요"));
+		System.out.println(c3.method04(5, 7));
+		c3.method3(3, 3);
+		
+		
+		
+		
+		
+	}
+	
+	
+}

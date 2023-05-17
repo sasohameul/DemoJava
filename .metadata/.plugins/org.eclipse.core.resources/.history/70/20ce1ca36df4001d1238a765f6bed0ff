@@ -1,0 +1,50 @@
+package study03.ascending;
+
+public class Descending extends Ascending{
+	
+	public Descending(int num) {
+		
+		super(num);
+	
+	}
+	
+	public void cSortMethod() {
+
+		for(int i = 0; i < d.length-1; i++) {
+
+			for(int j = 0; j < d.length-i-1; j++) {
+
+				if(d[i] < d[j]) {
+
+					char temp = d[i];
+					d[i] = d[j];
+					d[j] = temp;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	public void iSortMethod() {
+		
+		for(int i = 0; i < d.length-1; i++) {
+
+			for(int j = 0; j < d.length-i-1; j++) {
+
+				if(a[i] < a[j]) {
+
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+
+				}
+
+			}
+
+		}
+
+	}
+}

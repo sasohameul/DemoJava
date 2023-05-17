@@ -1,0 +1,15 @@
+package study03ktx;
+
+public class SuperKtx extends Ktx{
+
+	public SuperKtx() {
+
+	}
+	
+	
+	
+	
+	
+	
+	
+}

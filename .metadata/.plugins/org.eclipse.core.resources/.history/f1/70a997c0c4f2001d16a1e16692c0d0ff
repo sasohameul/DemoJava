@@ -1,0 +1,26 @@
+package study03;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		
+		Cat c = new Cat("야옹");
+		
+		System.out.println(c.getSound());
+		
+		Duck d = new Duck();
+		d.setsound("꽥꽥");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

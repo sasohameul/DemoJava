@@ -1,0 +1,11 @@
+package study03;
+
+public class Duck extends Animal{
+	
+	@Override
+	public String makeSound(String sound) {
+		// TODO Auto-generated method stub
+		return super.makeSound(sound);
+	}
+
+}

@@ -1,0 +1,25 @@
+package study03.ascending;
+
+public class Parents {
+	
+	int r = (int)(Math.random()*100 + 1);
+	int[] a = new int[r];
+
+	char r1 = ((char) ((int) (Math.random() * 26) + 65));
+	char[] d = new char[r1];
+	
+	
+	public void AscMethod() {
+		
+		
+	}
+	
+	
+	public void DescMethod() {
+		
+		
+		
+	}
+	
+
+}
