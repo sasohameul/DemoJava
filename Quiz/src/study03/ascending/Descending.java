@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Descending extends Ascending{
 
+	//같은 배열크기를 위해 부모생성자 호출
 	public Descending(int num) {
 
 		super(num);

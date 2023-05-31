@@ -6,19 +6,29 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="List"/>
+		<item key="selection" value="B738"/>
 		<list key="findhistory">
+			<item value="A320"/>
+			<item value="s"/>
+			<item value="A21N"/>
+			<item value="AT75"/>
+			<item value="A321"/>
 			<item value="list"/>
 			<item value="amount"/>
 			<item value="i"/>
 		</list>
 		<list key="replacehistory">
+			<item value="B738"/>
+			<item value="AT75"/>
+			<item value="A321"/>
+			<item value="A21N"/>
+			<item value="A320"/>
 			<item value="price"/>
 			<item value="index"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="-312"/>
+		<item key="DIALOG_X_ORIGIN" value="8"/>
 		<item key="DIALOG_Y_ORIGIN" value="234"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>

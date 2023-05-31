@@ -8,6 +8,7 @@ public class Ascending {
 	char[] d;
 	int[] a;
 
+	//부모 생성자에서 배열과 크기 초기화
 	public Ascending(int num) {
 
 		this.num = num;
@@ -22,7 +23,7 @@ public class Ascending {
 		}
 	}
 
-	
+	//char 배열 오름차순 메소드
 	public void cSortMethod() {
 			
 					
@@ -50,7 +51,7 @@ public class Ascending {
 	}
 
 	
-
+	//int 배열 오름차순 메소드
 	public void iSortMethod() {
 
 
