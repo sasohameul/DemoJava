@@ -19,8 +19,8 @@ public class StringBuilderEx {
 		
 		System.out.println("-----------------------");
 		
-		//빌더의 메소드
-		//append() - 문자열 끝에 추가
+		//빌더의 메소드	]	
+				//append() - 문자열 끝에 추가
 		sb.append("ming");
 		System.out.println(sb);
 		
@@ -61,3 +61,6 @@ public class StringBuilderEx {
 		
 	}
 }
+
+
+                                                                

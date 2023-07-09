@@ -22,7 +22,6 @@ public class RegexEx01 {
 		
 		
 		
-		
 	}
 
 }

@@ -6,18 +6,19 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="B738"/>
+		<item key="selection" value="int answer =0;"/>
 		<list key="findhistory">
+			<item value="int answer =0;"/>
+			<item value="line"/>
+			<item value="E"/>
 			<item value="A320"/>
 			<item value="s"/>
 			<item value="A21N"/>
 			<item value="AT75"/>
 			<item value="A321"/>
-			<item value="list"/>
-			<item value="amount"/>
-			<item value="i"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Person"/>
 			<item value="B738"/>
 			<item value="AT75"/>
 			<item value="A321"/>

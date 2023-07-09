@@ -18,14 +18,17 @@ public class BufferedReaderEx {
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			
-//			String result = br.readLine(); //한줄씩 읽음
-//			System.out.println(result);
+			String result = br.readLine(); //한줄씩 읽음
+			System.out.println(result);
 			
-			String result;
-			while((result = br.readLine()) != null) {
-				
-				System.out.println(result);
-			}						
+			String result2 = br.readLine();
+			System.out.println(result2);
+			
+//			String result;
+//			while((result = br.readLine()) != null) {
+//				
+//				System.out.println(result);
+//			}						
 																	
 		} catch (Exception e) {
 			
